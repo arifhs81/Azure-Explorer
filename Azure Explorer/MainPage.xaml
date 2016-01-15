@@ -10,6 +10,7 @@
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Button x:Name="btnExecute" Content="Execute" HorizontalAlignment="Left" Margin="249,65,0,0" VerticalAlignment="Top" Click="Clicked"/>
         <TextBox x:Name="txtRestApi" HorizontalAlignment="Left" Margin="56,65,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="188" PlaceholderText="Input Rest API" ToolTipService.ToolTip="Rest API"/>
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="83,112,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Page>
